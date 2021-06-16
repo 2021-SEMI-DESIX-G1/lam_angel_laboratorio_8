@@ -1,47 +1,51 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;800&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
 
 h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    padding-left: 3rem;
-    padding-top: 1rem;
+  font-weight: bold;
 }
 
 .main-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
 }
 
 .main-form {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    width: 20vw;
-    height: 60vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 40px;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
 }
 
 form input {
-    margin-left: 3rem;
-    height: 2rem;
-    width: 8rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    padding-left: 1rem;
+  flex-grow: 1;
+  margin-right: 10px;
+  font-size: 1.2rem;
 }
 
 form button {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
-    height: 2.3rem;
+  font-size: 1.2rem;
 }
 
 .main-task-list {
-    margin-left: 3rem;
-    margin-top: 2rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 400;
+  margin-top: 25px;
 }
 
 .main-task-list label {
-    margin-left: 0.5rem;
+  padding: 0 10px;
+}
+
+.task-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 0;
 }
